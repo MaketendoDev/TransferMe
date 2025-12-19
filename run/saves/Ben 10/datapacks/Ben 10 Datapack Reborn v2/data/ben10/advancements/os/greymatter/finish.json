@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scute",
+      "nbt": "{CustomModelData:10024}"
+    },
+    "title": {
+      "translate": "alien.greymatter.t"
+    },
+    "description": {
+      "translate": "alien.complete"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "ben10:os/greymatter/10",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

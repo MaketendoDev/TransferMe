@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "text": "The Flashiest One",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Defeat Thunder God",
+      "color": "dark_purple",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/find_colloseum",
+  "criteria": {
+    "travel_paradise": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"svm_ep.npc_thunder_god\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "travel_paradise"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

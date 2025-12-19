@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "new.ability"
+    },
+    "description": [
+      {
+        "translate": "swampfire.ab6"
+      },
+      {
+        "translate": "ability.use.1"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ben10:af/swampfire/5",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

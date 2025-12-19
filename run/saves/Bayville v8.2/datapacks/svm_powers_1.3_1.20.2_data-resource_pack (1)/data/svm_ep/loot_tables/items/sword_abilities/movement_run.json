@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "",
+                  "amount": -0.35,
+                  "operation": "multiply_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Running Movement",
+                "color": "#dafffe",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:101,svm_ep.sword_ability:1b,svm_ep.sword_ability_movement:3b}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "- Sword Ability",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "| Right-click to change slot",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "| Put in offhand to apply change",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Requires Sword Style",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

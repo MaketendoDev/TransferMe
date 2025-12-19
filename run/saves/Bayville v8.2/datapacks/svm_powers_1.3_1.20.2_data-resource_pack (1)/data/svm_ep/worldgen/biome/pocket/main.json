@@ -1,0 +1,25 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 14974144,
+    "fog_color": 7808859,
+    "water_color": 2771919,
+    "water_fog_color": 921135,
+    "grass_color": 3642118,
+    "foliage_color": 6344726,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.mood",
+    "particle": {
+      "options": {
+        "type": "minecraft:portal"
+      },
+      "probability": 0.05
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
+

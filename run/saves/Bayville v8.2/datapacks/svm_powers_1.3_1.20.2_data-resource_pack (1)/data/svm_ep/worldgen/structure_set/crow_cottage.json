@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:crow_cottage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 20478912,
+    "spacing": 22,
+    "separation": 17,
+    "type": "minecraft:random_spread"
+  }
+}

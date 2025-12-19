@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "title": {
+      "translate": "new.ability"
+    },
+    "description": [
+      {
+        "translate": "snare_oh.ab10"
+      },
+      {
+        "translate": "ability.use.3"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ben10:os/snare_oh/9",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

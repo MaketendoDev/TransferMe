@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Silent:1b,CustomNameVisible:0b,Willing:1b,Tags:["Azmuth"],CustomName:'{"text":"Azmuth"}',Attributes:[{Name:generic.armor,Base:15}]}

@@ -1,0 +1,11 @@
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/9=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/10
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/9=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/finish
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/8=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/9
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/7=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/8
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/6=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/7
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/5=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/6
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/4=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/5
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/3=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/4
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/2=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/3
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/1=true}] at @s run advancement grant @s only ben10:os_10k/buzzshock/2
+execute as @s[tag=buzzshock,advancements={ben10:os_10k/buzzshock/1=false}] at @s run advancement grant @s only ben10:os_10k/buzzshock/1

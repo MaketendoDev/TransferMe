@@ -1,0 +1,11 @@
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/9=true}] at @s run advancement grant @s only ben10:os/upgrade/10
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/9=true}] at @s run advancement grant @s only ben10:os/upgrade/finish
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/8=true}] at @s run advancement grant @s only ben10:os/upgrade/9
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/7=true}] at @s run advancement grant @s only ben10:os/upgrade/8
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/6=true}] at @s run advancement grant @s only ben10:os/upgrade/7
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/5=true}] at @s run advancement grant @s only ben10:os/upgrade/6
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/4=true}] at @s run advancement grant @s only ben10:os/upgrade/5
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/3=true}] at @s run advancement grant @s only ben10:os/upgrade/4
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/2=true}] at @s run advancement grant @s only ben10:os/upgrade/3
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/1=true}] at @s run advancement grant @s only ben10:os/upgrade/2
+execute as @s[tag=upgrade,advancements={ben10:os/upgrade/1=false}] at @s run advancement grant @s only ben10:os/upgrade/1

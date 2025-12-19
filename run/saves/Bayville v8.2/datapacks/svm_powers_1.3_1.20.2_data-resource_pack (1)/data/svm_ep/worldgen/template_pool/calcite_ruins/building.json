@@ -1,0 +1,96 @@
+{
+  "name": "svm_ep:calcite_ruins/building",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "svm_ep:calcite_ruins/gate1",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st1",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st2",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st3",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st4",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st5",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st6",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st7",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st8",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:calcite_ruins/buildings/st9",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

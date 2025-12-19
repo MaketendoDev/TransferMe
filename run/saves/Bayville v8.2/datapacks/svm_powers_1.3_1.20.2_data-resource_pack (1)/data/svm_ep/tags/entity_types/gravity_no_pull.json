@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:item_frame",
+    "minecraft:painting",
+    "minecraft:experience_orb",
+    "minecraft:item",
+    "minecraft:eye_of_ender",
+    "minecraft:fishing_bobber",
+    "#minecraft:arrows",
+    "#minecraft:impact_projectiles"
+  ]
+}

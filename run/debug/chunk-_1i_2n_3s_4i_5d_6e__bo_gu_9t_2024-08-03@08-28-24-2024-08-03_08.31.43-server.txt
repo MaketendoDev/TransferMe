@@ -1,0 +1,110 @@
+---- Minecraft Chunk IO Error Report ----
+// Ideally, this shouldn't be here
+
+Time: 2024-08-03 08:31:43
+Description: Chunk load failure
+
+java.lang.IllegalStateException: Missing Palette entry for id 0.
+	at dvt.a(SourceFile:51)
+	at dvq.a(SourceFile:300)
+	at dvj.g(SourceFile:139)
+	at dvj.<init>(SourceFile:34)
+	at dwi.a(SourceFile:124)
+	at aqb.a(SourceFile:553)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bph.d(SourceFile:162)
+	at aqs$b.d(SourceFile:552)
+	at bph.B(SourceFile:136)
+	at aqs$b.B(SourceFile:561)
+	at aqs.d(SourceFile:263)
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:852)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:840)
+	at bph.b(SourceFile:145)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:810)
+	at net.minecraft.server.MinecraftServer.v_(SourceFile:815)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:508)
+	at net.minecraft.server.MinecraftServer.t_(SourceFile:345)
+	at guo.e(SourceFile:73)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:664)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-6
+Stacktrace:
+	at dvt.a(SourceFile:51)
+	at dvq.a(SourceFile:300)
+	at dvj.g(SourceFile:139)
+	at dvj.<init>(SourceFile:34)
+	at dwi.a(SourceFile:124)
+	at aqb.a(SourceFile:553)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at bph.d(SourceFile:162)
+	at aqs$b.d(SourceFile:552)
+	at bph.B(SourceFile:136)
+	at aqs$b.B(SourceFile:561)
+	at aqs.d(SourceFile:263)
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:852)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:840)
+	at bph.b(SourceFile:145)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:810)
+	at net.minecraft.server.MinecraftServer.v_(SourceFile:815)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:508)
+	at net.minecraft.server.MinecraftServer.t_(SourceFile:345)
+
+-- Chunk Info --
+Details:
+	Level: _1i_2n_3s_4i_5d_6e__bo_gu_9t_2024-08-03@08-28-24
+	Dimension: minecraft:overworld
+	Storage: chunk
+	Position: [30, -13]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2008)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 123154600 bytes (117 MiB) / 738197504 bytes (704 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12400F
+	Identifier: Intel64 Family 6 Model 151 Stepping 5
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 3060
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 12288.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.15.5183
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 31588.25
+	Virtual memory used (MiB): 14851.61
+	Swap memory total (MiB): 15360.00
+	Swap memory used (MiB): 96.68
+	Space in storage for jna.tmpdir (MiB): available: 18872.16, total: 243049.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 18872.16, total: 243049.00
+	Space in storage for io.netty.native.workdir (MiB): available: 18872.16, total: 243049.00
+	Space in storage for java.io.tmpdir (MiB): available: 18872.16, total: 243049.00
+	Space in storage for workdir (MiB): available: 18872.16, total: 243049.00
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M

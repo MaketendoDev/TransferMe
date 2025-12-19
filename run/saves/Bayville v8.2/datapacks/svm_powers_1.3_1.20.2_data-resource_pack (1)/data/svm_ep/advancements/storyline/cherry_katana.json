@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_petals"
+    },
+    "title": {
+      "text": "Cheerful!",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Obtain a Cherry Sword",
+      "color": "green",
+      "bold": false,
+      "italic": false
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/find_cherry_house",
+  "criteria": {
+    "travel_paradise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{svm_ep.katana_cherry:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "travel_paradise"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

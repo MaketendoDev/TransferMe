@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "svm_ep:gauntlet"
+      }
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:craft_item",
+    "loot": [
+      "svm_ep:items/gauntlet"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "new.ability"
+    },
+    "description": [
+      {
+        "translate": "arctiguana.ab6"
+      },
+      {
+        "translate": "ability.use.1"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ben10:os_10k/arctiguana/5",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

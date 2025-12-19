@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scute",
+      "nbt": "{CustomModelData:10047}"
+    },
+    "title": {
+      "translate": "alien.ult.swampfire.t"
+    },
+    "description": {
+      "translate": "alien.complete"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "ben10:uaf/swampfire/10",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

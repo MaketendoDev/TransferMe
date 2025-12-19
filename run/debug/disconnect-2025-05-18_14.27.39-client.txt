@@ -1,0 +1,95 @@
+---- Minecraft Network Protocol Error Report ----
+// Could be worse, I guess
+
+Time: 2025-05-18 14:27:39
+Description: Packet handling error
+
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity ckp['Parrot'/26961, l='ClientLevel', x=514.78, y=72.00, z=1531.30]: old=false(class java.lang.Boolean), new=3026(class java.lang.Integer)
+	at aky.a(SourceFile:126)
+	at aky.a(SourceFile:117)
+	at glp.a(SourceFile:598)
+	at afo.a(SourceFile:54)
+	at afo.a(SourceFile:12)
+	at zr.a(SourceFile:27)
+	at btq.d(SourceFile:164)
+	at btv.d(SourceFile:23)
+	at btq.B(SourceFile:138)
+	at btq.bA(SourceFile:123)
+	at fqq.c(SourceFile:1308)
+	at fqq.f(SourceFile:936)
+	at net.minecraft.client.main.Main.main(SourceFile:265)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at aky.a(SourceFile:126)
+	at aky.a(SourceFile:117)
+
+-- Incoming Packet --
+Details:
+	Type: clientbound/minecraft:set_entity_data
+	Is Terminal: false
+	Is Skippable: false
+Stacktrace:
+	at zr.a(SourceFile:56)
+	at gll.a(SourceFile:131)
+	at gll.a(SourceFile:110)
+	at zr.a(SourceFile:32)
+	at btq.d(SourceFile:164)
+	at btv.d(SourceFile:23)
+	at btq.B(SourceFile:138)
+	at btq.bA(SourceFile:123)
+	at fqq.c(SourceFile:1308)
+	at fqq.f(SourceFile:936)
+	at net.minecraft.client.main.Main.main(SourceFile:265)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Is Local: false
+	Server type: OTHER
+	Server brand: Purpur
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 889736384 bytes (848 MiB) / 1409286144 bytes (1344 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12400F
+	Identifier: Intel64 Family 6 Model 151 Stepping 5
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 3060
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 12288.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.15.5183
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 39780.19
+	Virtual memory used (MiB): 28171.55
+	Swap memory total (MiB): 23552.00
+	Swap memory used (MiB): 1280.96
+	Space in storage for jna.tmpdir (MiB): available: 15878.17, total: 243049.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 15878.17, total: 243049.00
+	Space in storage for io.netty.native.workdir (MiB): available: 15878.17, total: 243049.00
+	Space in storage for java.io.tmpdir (MiB): available: 15878.17, total: 243049.00
+	Space in storage for workdir (MiB): available: 15878.17, total: 243049.00
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M

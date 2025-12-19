@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:scute",
+      "nbt": "{CustomModelData:10026}"
+    },
+    "title": {
+      "translate": "alien.stinkfly.t"
+    },
+    "description": {
+      "translate": "alien.complete"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "ben10:os/stinkfly/10",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

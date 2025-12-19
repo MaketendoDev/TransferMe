@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_dye"
+    },
+    "title": {
+      "translate": "new.ability"
+    },
+    "description": [
+      {
+        "translate": "blitzwolfer.ab4"
+      },
+      {
+        "translate": "ability.use.1"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "ben10:os/blitzwolfer/3",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

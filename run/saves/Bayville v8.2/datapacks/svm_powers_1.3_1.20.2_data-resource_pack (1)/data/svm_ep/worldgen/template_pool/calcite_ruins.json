@@ -1,0 +1,33 @@
+{
+  "name": "svm_ep:colloseum",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "location": "svm_ep:calcite_ruins/start1",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "svm_ep:calcite_ruins/start2",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "svm_ep:calcite_ruins/start3",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
