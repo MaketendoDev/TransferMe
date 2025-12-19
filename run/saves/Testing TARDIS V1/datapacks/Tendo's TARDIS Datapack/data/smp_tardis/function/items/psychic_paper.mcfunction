@@ -1,0 +1,5 @@
+execute unless entity @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] run effect clear @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] hero_of_the_village
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] run effect give @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] hero_of_the_village infinite 12 true
+
+execute unless entity @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] run team leave @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}]
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}] run team join Admin @a[nbt={SelectedItem:{id:"minecraft:paper",components:{"minecraft:custom_name":'"Psychic Paper"'}}}]

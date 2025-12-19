@@ -1,0 +1,1 @@
+function animated_java:svm_aj/zzzzzzzz/animations/punch/tick_animation

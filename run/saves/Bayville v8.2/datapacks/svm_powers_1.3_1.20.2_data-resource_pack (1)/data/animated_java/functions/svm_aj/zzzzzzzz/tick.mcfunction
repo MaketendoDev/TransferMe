@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.svm_aj.root] run function animated_java:svm_aj/zzzzzzzz/tick_as_root

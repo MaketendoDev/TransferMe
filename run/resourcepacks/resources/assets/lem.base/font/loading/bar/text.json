@@ -1,0 +1,26 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "lem.base:negative_spaces"
+        },
+        {
+            "type": "bitmap",
+            "file": "lem.base:loading/bar/text/terrain.png",
+            "ascent": 3,
+            "height": 7,
+            "chars": [
+                "\uF901"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "lem.base:loading/bar/text/resource.png",
+            "ascent": 3,
+            "height": 7,
+            "chars": [
+                "\uF902"
+            ]
+        }
+    ]
+}
